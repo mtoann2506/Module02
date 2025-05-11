@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module02.iml" filepath="$PROJECT_DIR$/.idea/Module02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice-Operator-Expression/practice-Operator-Expression.iml" filepath="$PROJECT_DIR$/practice-Operator-Expression/practice-Operator-Expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice-Variable-DataType/practice-Variable-DataType.iml" filepath="$PROJECT_DIR$/practice-Variable-DataType/practice-Variable-DataType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice-day-of-month/practice-day-of-month.iml" filepath="$PROJECT_DIR$/practice-day-of-month/practice-day-of-month.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice-linear-equation-resolver/practice-linear-equation-resolver.iml" filepath="$PROJECT_DIR$/practice-linear-equation-resolver/practice-linear-equation-resolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice-system-time/practice-system-time.iml" filepath="$PROJECT_DIR$/practice-system-time/practice-system-time.iml" />
+    </modules>
+  </component>
+</project>
