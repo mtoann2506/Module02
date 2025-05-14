@@ -27,39 +27,54 @@ public class DrawGeometry {
                     break;
                 case 2:
                     System.out.println("Drawing a square triangle:");
-                    System.out.println("The corner is square at bottom-left:");
-                    for (int i = 0; i < 5; i++) {
-                        for (int j = 0; j <= i; j++) {
-                            System.out.print("* ");
-                        }
-                        System.out.println();
-                    }
-                    System.out.println("The corner is square at top-left:");
-                    for (int i = 5; i >= 1; i--) {
-                        for (int j = 0; j < i; j++) {
-                            System.out.print("* ");
-                        }
-                        System.out.println();
-                    }
-                    System.out.println("The corner is square at bottom-right:");
-                    for (int i = 0; i <= 5; i++) {
-                        for (int j = 5; j > i; j--) {
-                            System.out.print("  ");
-                        }
-                        for (int j = 0; j < i; j++) {
-                            System.out.print("* ");
-                        }
-                        System.out.println();
-                    }
-                    System.out.println("The corner is square at top-right:");
-                    for (int i = 1; i <= 5; i++) {
-                        for (int j = 1; j < i; j++) {
-                            System.out.print("  ");
-                        }
-                        for (int k = i; k <= 5 ; k++) {
-                            System.out.print("* ");
-                        }
-                        System.out.println();
+                    System.out.println("1. The corner is square at bottom-left");
+                    System.out.println("2. The corner is square at top-left");
+                    System.out.println("3. The corner is square at bottom-right");
+                    System.out.println("4. The corner is square at top-right");
+                    System.out.print("Enter your corner choice: ");
+                    int triangleChoice = sc.nextInt();
+
+                    switch (triangleChoice) {
+                        case 1: // Bottom-left
+                            for (int i = 1; i <= 5; i++) {
+                                for (int j = 1; j <= i; j++) {
+                                    System.out.print("* ");
+                                }
+                                System.out.println();
+                            }
+                            break;
+                        case 2: // Top-left
+                            for (int i = 5; i >= 1; i--) {
+                                for (int j = 1; j <= i; j++) {
+                                    System.out.print("* ");
+                                }
+                                System.out.println();
+                            }
+                            break;
+                        case 3: // Bottom-right
+                            for (int i = 1; i <= 5; i++) {
+                                for (int j = 5; j > i; j--) {
+                                    System.out.print("  ");
+                                }
+                                for (int j = 1; j <= i; j++) {
+                                    System.out.print("* ");
+                                }
+                                System.out.println();
+                            }
+                            break;
+                        case 4: // Top-right
+                            for (int i = 5; i >= 1; i--) {
+                                for (int j = 5; j > i; j--) {
+                                    System.out.print("  ");
+                                }
+                                for (int j = 1; j <= i; j++) {
+                                    System.out.print("* ");
+                                }
+                                System.out.println();
+                            }
+                            break;
+                        default:
+                            System.out.println("Invalid corner choice.");
                     }
                     break;
                 case 3:
